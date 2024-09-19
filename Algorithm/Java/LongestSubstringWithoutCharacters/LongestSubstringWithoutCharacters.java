@@ -1,5 +1,17 @@
 import java.util.HashSet;
 
+/* 
+Given a string s, find the length of the longest substring
+without repeating characters.
+
+Constraints:
+
+0 <= s.length <= 5 * 104
+s consists of English letters, digits, symbols and spaces.
+*/
+
+
+
 public class LongestSubstringWithoutCharacters {
        public int lengthOfLongestSubstring(String s) {
         int pointer1 = 0;
